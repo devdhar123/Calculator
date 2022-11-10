@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/Berechnung_Leistungsklasse-300x200.jpg);
+}
+.calc{
+    border-radius: 10px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(4,66px);
+    background-color: #191a1e;
+}
+input{
+    grid-column: span 4;
+    height: 60px;
+    width: 258px;
+    border: none;
+    border-radius: 20px;
+    text-align: end;
+    margin: 30px 0px 30px 0px;
+    padding: 20px;
+    font-size: 40px;
+    background-color: #191a1e;
+    color: white;
+    box-shadow: inset -0px -0px -66px -17px rgba(255,255,255,0.86);
+-webkit-box-shadow: 0px 0px 66px -17px rgba(255,255,255,0.86);
+-moz-box-shadow: 0px 0px 66px -17px rgba(255,255,255,0.86);
+
+}
+button{
+    border-radius: 10px;
+    border: none;
+    width: 50px;
+    height: 40px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.eql{
+    width: 120px;
+    border-radius: 10px;
+}
+.col{
+    background-color: #ec8a25;
+    color: white;
+}
+.num{
+    background-color: #37393c;
+    color: white;
+}
+.first{
+    background-color: #6d7379;
+    color: white;
+}
